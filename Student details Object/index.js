@@ -55,8 +55,7 @@ function Marks_of_5_subjects(science, maths, social_science, english, hindi) {
 
 // Example usage:
 const studentMarks = new Marks_of_5_subjects(85, 90, 78, 92, 88);
-const student = new CreateStudent("John Doe", "12345", "10th", "A", studentMarks);
-
+const student = new CreateStudent(" Huzaifa", "16 ", "X ", "A", studentMarks);
 student.printTop3Subjects();
 console.log(); // Add a newline for better readability
 student.printReportCard();
